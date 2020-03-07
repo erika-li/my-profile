@@ -1,0 +1,90 @@
+/*Colors and fonts*/
+
+body {
+	color: olivedrab;
+    background-color: beige;
+    font-family: Courier;
+    font-size:16px;
+    font-weight:lighter;
+}
+
+h1{
+	font-family: 'Bree Serif', ;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+h2{
+	color: rgb(170,170,170);
+}
+
+a{
+	text-decoration:none;
+	font-weight:lighter;
+}
+a:hover{
+	color:white;
+}
+
+/*Custom design with class*/
+
+.container{
+	width:700px;
+	margin:40px auto;
+}
+
+.btn-grey{
+	background-color: rgb(200,200,200);
+	padding:15px 20px;
+	border-radius:4px;
+	color: olivedrab;
+	font-weight:bold;
+
+}
+.btn-grey:hover{
+	color:white;
+	background-color: rgb(150,150,150)
+}
+
+.card-lemonchiffon{
+	background:lemonchiffon;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin:20px 0px;
+	text-align:center;
+}
+
+.img-circle{
+	border-radius:50%;
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-inline i{
+	font-size:50px;
+	color:rgb(200,200,200);
+}
+.list-inline i:hover{
+	font-size:50px;
+	color:rgb(100,100,100);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
